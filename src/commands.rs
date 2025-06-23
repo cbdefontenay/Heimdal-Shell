@@ -49,7 +49,7 @@ pub fn print_fortune() {
 }
 
 pub fn print_help() {
-    println!("\n\x1b[1;36mGwened Shell - Cross-platform Rust Shell\x1b[0m\n");
+    println!("\n\x1b[1;36mHeimdal Shell\x1b[0m\n");
     println!("Available internal commands:");
     println!("  \x1b[1;33mcd <dir>\x1b[0m         Change directory");
     println!("  \x1b[1;33mclear\x1b[0m           Clear the screen");
@@ -57,7 +57,7 @@ pub fn print_help() {
     println!("  \x1b[1;33mwhoami\x1b[0m          Print current user");
     println!("  \x1b[1;33mheimdal --help\x1b[0m   Show this help message\n");
     println!("  \x1b[1;33mtree\x1b[0m            Print folder tree");
-    println!("  \x1b[1;33mtip\x1b[0m             Show a random Gwened tip");
+    println!("  \x1b[1;33mtip\x1b[0m             Show a random Heimdal tip");
     println!("  \x1b[1;33msearch <word>\x1b[0m   Search files for a keyword");
     println!("  \x1b[1;33mchat host <name> <port>\x1b[0m   Start a chat session as host");
     println!("  \x1b[1;33mchat guest <name> <ip> <port>\x1b[0m  Join a chat session as guest");
