@@ -1,1 +1,0 @@
-/home/cyprien/Documents/rust/heimdal/target/release/heimdal: /home/cyprien/Documents/rust/heimdal/src/chat.rs /home/cyprien/Documents/rust/heimdal/src/commands.rs /home/cyprien/Documents/rust/heimdal/src/main.rs /home/cyprien/Documents/rust/heimdal/src/shell.rs
