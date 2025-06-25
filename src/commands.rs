@@ -59,8 +59,8 @@ pub fn print_help() {
     println!("  \x1b[1;33mtree\x1b[0m            Print folder tree");
     println!("  \x1b[1;33mtip\x1b[0m             Show a random Heimdal tip");
     println!("  \x1b[1;33msearch <word>\x1b[0m   Search files for a keyword");
-    println!("  \x1b[1;33mchat host <name> <port>\x1b[0m   Start a chat session as host");
-    println!("  \x1b[1;33mchat guest <name> <ip> <port>\x1b[0m  Join a chat session as guest");
+    println!("  \x1b[1;33mchat host <name> <port> <password>\x1b[0m   Start a chat session as host");
+    println!("  \x1b[1;33mchat guest <name> <ip> <port> <password>\x1b[0m  Join a chat session as guest");
 
     println!(
         "External commands like \x1b[1;32mecho\x1b[0m or \x1b[1;32mls\x1b[0m are passed to the OS."

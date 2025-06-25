@@ -1,7 +1,10 @@
 [package]
 name = "heimdal"
 version = "0.1.0"
-edition = "2024"
+authors = ["Cyprien"]
+edition = "2021"
+#license = "MIT"
+description = "A Rust-based shell interface that allows you to chat securely with someone else"
 
 [dependencies]
 tokio = { version = "1.45.1", features = ["full"] }
@@ -15,3 +18,9 @@ aes-gcm = "0.10.3"
 serde_json = "1.0.140"
 generic-array = "0.14.7"
 libc = "0.2.174"
+
+[package.metadata.deb]
+maintainer = "Cyprien"
+assets = [
+    ["target/release/heimdal", "usr/bin/", "755"]
+]
