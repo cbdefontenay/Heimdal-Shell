@@ -9,3 +9,28 @@ chat host mychat 9898 mysecretp@ssw0rd
 ```
 
 Else just enter ```heimdal --help``` to know more about those commands.
+
+#### Steps to follow using ```cargo```:
+
+```bash
+cargo install cargo-deb
+```
+
+Then:
+```bash
+cd to the Heimdal --bin project directory
+```
+Then:
+```bash
+cargo deb
+```
+
+You'll find the .deb file at this location:
+```
+target/debian/heimdal-shell_<version>_amd64.deb
+```
+
+In order to install Heimdal system-wide:
+```bash
+sudo dpkg -i target/debian/heimdal-shell_<version>_amd64.deb
+```
