@@ -12,7 +12,7 @@ Else just enter ```heimdal --help``` to know more about those commands.
 
 #### Steps to follow using ```cargo```:
 
-```bash
+```rust
 cargo install cargo-deb
 ```
 
@@ -21,7 +21,7 @@ Then:
 cd to the Heimdal --bin project directory
 ```
 Then:
-```bash
+```rust
 cargo deb
 ```
 
